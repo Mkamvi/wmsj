@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#chart-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background: #303e3e;
+  color: #fff;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: color-flicker linear 1.4s infinite;
+}
+
+a {
+  color: #00dad0;
+}
+
+@keyframes color-flicker {
+  0% {
+    color: #018c98;
+  }
+  50% {
+    color: #00d6e9;
+  }
+  100% {
+    color: #018c98;
+  }
+}
