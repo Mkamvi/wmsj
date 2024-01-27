@@ -18,6 +18,7 @@ loadScript(
   function () {
     // Reinit chart again
     // TODO: visual encoding registerion must been done before echarts.init.
+    if (document.body.clientWidth < 800) return
     var dom = myChart.getDom();
     myChart.dispose();
     myChart = echarts.init(dom);
