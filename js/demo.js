@@ -91,7 +91,7 @@ loadScript(
             nodes: nodes,
             edges: edges,
             modularity: {
-              resolution: 2,
+              resolution: 1,
               sort: true
             },
             lineStyle: {
@@ -126,7 +126,8 @@ loadScript(
               jitterTolerence: 10,
               edgeWeight: [0.2, 1],
               gravity: 5,
-              edgeWeightInfluence: 0
+              edgeWeightInfluence: 0,
+              scaling: 1
               // preventOverlap: true
             }
           }
