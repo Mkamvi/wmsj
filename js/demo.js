@@ -127,7 +127,7 @@ loadScript(
               edgeWeight: [0.2, 1],
               gravity: 5,
               edgeWeightInfluence: 0,
-              scaling: 1
+              scaling: document.body.clientWidth / 1440
               // preventOverlap: true
             }
           }
