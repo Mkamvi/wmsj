@@ -8,8 +8,14 @@
   overflow: hidden;
 }
 
+html,
 body {
-  background: #303e3e;
+  height: 100%;
+}
+
+body {
+  background: url("../imgs/至尊骨.png");
+  background-size: cover;
   color: #fff;
 }
 
@@ -42,7 +48,8 @@ body {
 }
 
 a {
-  color: #00dad0;
+  /* color: #00dad0; */
+  color: #fff;
 }
 
 @keyframes color-flicker {
